@@ -1,0 +1,9 @@
+# Package Managers
+# NPM
+node_modules/
+# Tailwind CSS
+dist.css
+# IDE
+# VS Code
+.vscode/
+!.vscode/extensions.json

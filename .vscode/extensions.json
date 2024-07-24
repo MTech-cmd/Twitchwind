@@ -10,6 +10,7 @@
         "htmlhint.vscode-htmlhint",
         "bradlc.vscode-tailwindcss",
         "macieklad.tailwind-sass-syntax",
-        "zarifprogrammer.tailwind-snippets"
+        "zarifprogrammer.tailwind-snippets",
+        "esbenp.prettier-vscode"
     ]
 }

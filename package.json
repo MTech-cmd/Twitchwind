@@ -1,0 +1,30 @@
+{
+  "name": "twitchwind",
+  "version": "1.1.0",
+  "description": "A Twitch front page clone using Tailwind CSS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tailwindcss -i ./site/stylesheets/src.css -o ./site/stylesheets/tailwind.css --watch",
+    "build": "tailwindcss -i ./site/stylesheets/src.css -o ./site/stylesheets/tailwind.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/MTech-cmd/Twitchwind.git"
+  },
+  "keywords": [
+    "Twitch",
+    "TailwindCSS"
+  ],
+  "author": "Mehdi El Khallouki",
+  "license": "AGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/MTech-cmd/Twitchwind/issues"
+  },
+  "homepage": "https://mtech-cmd.github.io/Twitchwind/",
+  "devDependencies": {
+    "prettier": "^3.3.3",
+    "prettier-plugin-tailwindcss": "^0.6.5",
+    "tailwindcss": "^3.4.6"
+  }
+}
