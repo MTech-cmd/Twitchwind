@@ -1,0 +1,12 @@
+@keyframes spinner {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(359deg);
+    }
+}
+
+.spinner {
+    animation: spinner 12s linear infinite;
+}
