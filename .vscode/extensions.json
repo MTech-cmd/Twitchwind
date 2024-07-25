@@ -11,6 +11,7 @@
         "bradlc.vscode-tailwindcss",
         "macieklad.tailwind-sass-syntax",
         "zarifprogrammer.tailwind-snippets",
-        "esbenp.prettier-vscode"
+        "esbenp.prettier-vscode",
+        "github.vscode-github-actions"
     ]
 }
