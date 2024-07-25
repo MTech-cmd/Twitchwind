@@ -2,7 +2,7 @@
 # NPM
 node_modules/
 # Tailwind CSS
-dist.css
+tailwind.css
 # IDE
 # VS Code
 .vscode/
