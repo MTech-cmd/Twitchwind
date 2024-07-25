@@ -1,20 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Twitch Clone</title>
+    <meta name="description" content="A Twitch front page clone using Tailwind CSS">
+    <title>Twitchwind</title>
+    <link rel="icon" href="assets/favicon.png" type="image/png">
     <link rel="stylesheet" href="stylesheets/tailwind.css">
 </head>
+
 <body class="bg-gray-900 text-white">
     <!-- Header -->
     <header class="bg-gray-800 p-4 flex items-center justify-between">
         <div class="flex items-center space-x-4">
-            <img src="assets/twitchwind.png" alt="Twitchwind Logo" class="w-10 h-10">
+            <a href="index.html"><img src="assets/favicon.png" alt="Twitchwind Logo" class="w-10 h-10"></a>
             <nav class="hidden md:flex space-x-4">
-                <a href="#" class="hover:text-purple-400">Browse</a>
-                <a href="#" class="hover:text-purple-400">Esports</a>
-                <a href="#" class="hover:text-purple-400">Music</a>
+                <a href="#" class="pointer-events-none opacity-50">Browse</a>
+                <a href="#" class="pointer-events-none opacity-50">Esports</a>
+                <a href="#" class="pointer-events-none opacity-50">Music</a>
+                <a href="https://github.com/MTech-cmd/Twitchwind" class="hover:text-purple-500">Source Code</a>
+                <a href="about.html" class="hover:text-purple-500">About</a>
             </nav>
         </div>
         <div class="flex items-center space-x-4">
@@ -30,7 +36,10 @@
         <section class="mb-8">
             <h2 class="text-2xl mb-4">Featured Video</h2>
             <div class="flex justify-center">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/ts-j0nFf2e0?si=arn_-6zjR0RRU1MO" title="YouTube video" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/ts-j0nFf2e0?si=arn_-6zjR0RRU1MO"
+                    title="YouTube video"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
             </div>
         </section>
 
@@ -38,16 +47,25 @@
         <section class="mb-8">
             <h2 class="text-2xl mb-4">Live Channels</h2>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-                <div class="bg-gray-800 p-4 rounded">
-                    <iframe width="550" height="200" src="https://www.youtube.com/embed/MmB9b5njVbA" title="YouTube video" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <div class="bg-gray-800 p-4 rounded text-center">
+                    <iframe width="550" height="200" src="https://www.youtube.com/embed/MmB9b5njVbA"
+                        title="YouTube video"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen class="inline"></iframe>
                     <h3 class="mt-2">Mojang</h3>
                 </div>
-                <div class="bg-gray-800 p-4 rounded">
-                    <iframe width="550" height="200" src="https://www.youtube.com/embed/QdBZY2fkU-0" title="YouTube video" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <div class="bg-gray-800 p-4 rounded text-center">
+                    <iframe width="550" height="200" src="https://www.youtube.com/embed/QdBZY2fkU-0"
+                        title="YouTube video"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen class="inline"></iframe>
                     <h3 class="mt-2">Rockstar Games</h3>
                 </div>
-                <div class="bg-gray-800 p-4 rounded">
-                    <iframe width="550" height="200" src="https://www.youtube.com/embed/PFVL6t8IHE8?si=5ywicKsMqolKEa73" title="YouTube video" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <div class="bg-gray-800 p-4 rounded text-center">
+                    <iframe width="550" height="200" src="https://www.youtube.com/embed/PFVL6t8IHE8?si=5ywicKsMqolKEa73"
+                        title="YouTube video"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen class="inline"></iframe>
                     <h3 class="mt-2">PlayStation</h3>
                 </div>
             </div>
@@ -77,4 +95,5 @@
         </section>
     </main>
 </body>
+
 </html>
